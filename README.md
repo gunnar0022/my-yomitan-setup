@@ -44,3 +44,44 @@ _Some steps may look a bit technical, but take them one at a time and you’ll b
 <div style='font-family: BIZ UDGothic; font-size: 24px;'>{{Sentence}}</div>
 {{/Sentence}}
 </div>
+
+
+<div style="margin-top: 60px; text-align: center;">
+  <!-- Reading -->
+  <div style='font-family: BIZ UDGothic; font-size: 48px;'>{{Reading}}</div>
+  {{#Sentence}}
+  <div style='font-family: BIZ UDGothic; font-size: 24px; margin-top: 10px;'>{{Sentence}}</div>
+  {{/Sentence}}
+  {{#Audio}}
+  <div style='margin-top: 20px;'>{{Audio}}</div>
+  {{/Audio}}
+  <hr id="answer">
+  <!-- Full Glossary Output (Styled for readability) -->
+  {{#Back}}
+  <div style='font-family: BIZ UDGothic; font-size: 20px; text-align: left; white-space: pre-wrap;'>{{Back}}</div>
+  {{/Back}}
+  <!-- Cloze-style sentence -->
+  {{#Sentence no word}}
+  <div style='font-family: BIZ UDGothic; font-size: 20px; margin-top: 20px;'>{{Sentence no word}}</div>
+  {{/Sentence no word}}
+  <!-- Frequency -->
+  {{#Frequency}}
+  <div style='font-family: BIZ UDGothic; font-size: 18px; margin-top: 10px;'>{{Frequency}}</div>
+  {{/Frequency}}
+</div>
+
+
+
+.card {
+  font-family: 'BIZ UDGothic', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+hr#answer {
+  margin: 30px auto;
+  width: 50%;
+  border: 1px solid #ccc;
+}
+
