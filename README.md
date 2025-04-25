@@ -102,9 +102,15 @@ hr#answer {
 - Click the Yomitan icon in Chrome and go to **Settings → Backup**.
 - Download the [Yomitan Dictionaries Bundle](https://drive.google.com/file/d/1ExmPI7cDwWpsCO6g8YBslAAdF92BwJqx/view?usp=sharing).
 - Import the file using Yomitan’s import feature.
+- ![Yomitan dictionary import](yomitan-import.png)  
+*Example: Importing dictionaries into Yomitan.*
 - **Enable dictionaries** at the top of the page.
   - *(If you don’t want native Japanese definitions, uncheck the one in Japanese".)*
 - You use the example of the right and mess with the order and stuff until you like it.
+
+![Yomitan dictionary configuration](yomitan-dict-config.png)  
+*Example: Enabling/disabling dictionaries in Yomitan.*
+
 
 ### 2.3 Configure Anki Integration
 
@@ -129,8 +135,8 @@ hr#answer {
 > ![Yomitan Anki mapping screenshot 1](yomitan-mapping-1.png)  
 > **Example**: Yomitan field mapping (part 1)
 
-> ![Yomitan Anki mapping screenshot 2](yomitan-mapping-2.png)  
-> **Example**: Yomitan field mapping (part 2)
+![Yomitan field configuration (part 2)](yomitan-field-config2.png)  
+*Example: Yomitan field mapping.*
 
 ---
 
@@ -140,6 +146,8 @@ hr#answer {
 - Once installed, subtitles can be clicked directly within Crunchyroll videos to create Anki cards automatically.
 - If Crunchyroll does not have Japanese subtitles for a particular anime, download subtitles from [kitsunekko.net](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F).
 - Upload these manually into the ManabiDojo interface (bottom right of your Crunchyroll video).
+![Using raw subtitle files](raw-subs-use.png)
+*Example: Uploading raw subtitles into ManabiDojo.*
 
 ---
 
