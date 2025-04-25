@@ -26,7 +26,7 @@ This guide will walk you through setting up a powerful Japanese study workflow u
 - Add these fields exactly as listed below:
 
 
-> ![Anki fields setup example](anki-fields-setup.png)  
+> ![Anki fields setup example](.png)  
 > **Example**: Your Anki fields should look similar to this screenshot.
 
 ### 1.3 Configure Card HTML Templates and CSS
