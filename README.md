@@ -93,7 +93,7 @@ hr#answer {
 
 ### 2.1 Install Yomitan
 
-- Install the extension from the [Yomitan Chrome Web Store](https://chrome.google.com/webstore/detail/yomitan/jipdnfibhldikgcjhfnomkfpcebammhp).
+- Install the extension from the [Yomitan Chrome Web Store]([https://chrome.google.com/webstore/detail/yomitan/jipdnfibhldikgcjhfnomkfpcebammhp](https://microsoftedge.microsoft.com/addons/detail/yomitan-popup-dictionary/idelnfbbmikgfiejhgmddlbkfgiifnnn)).
 
 ### 2.2 Import Dictionaries
 
@@ -101,13 +101,16 @@ hr#answer {
 - Download the [Yomitan Dictionaries Bundle](https://drive.google.com/file/d/1ExmPI7cDwWpsCO6g8YBslAAdF92BwJqx/view?usp=sharing).
 - Import the file using Yomitan’s import feature.
 - **Enable dictionaries** at the top of the page.
-  - *(If you don’t want native Japanese definitions, uncheck the one labeled "Japanese".)*
+  - *(If you don’t want native Japanese definitions, uncheck the one in Japanese".)*
+- You use the example of the right and mess with the order and stuff until you like it.
 
 ### 2.3 Configure Anki Integration
 
-- Open Yomitan Settings and navigate to the **Anki** tab.
+- Navigate to the **Anki** tab.
 - Ensure Anki is open with AnkiConnect running.
-- Use the following settings for field mappings:
+- Configure the Deck to the deck you want the cards to get sent to.
+- Configure the Model Type to the Yomitan card type you created earlier.
+- Now fill in the field values in the fowwling way
 
 | Anki Field          | Yomitan Value             |
 |---------------------|---------------------------|
@@ -115,7 +118,7 @@ hr#answer {
 | Back                | `{glossary}`              |
 | dictionary          | `{dictionary}`            |
 | Audio               | `{audio}`                 |
-| Add Reverse         | *(Some of this works, not too sure why. Don't mess with it.)* |
+| Add Reverse         |                           |
 | Sentence            | `{sentence}`              |
 | Sentence no word    | `{pitch-accent-graphs}`   |
 | Reading             | `{reading}`               |
