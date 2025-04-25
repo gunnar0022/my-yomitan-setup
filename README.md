@@ -30,6 +30,7 @@ This guide will walk you through setting up a powerful Japanese study workflow u
 > **Example**: Your Anki fields should look similar to this screenshot.
 
 ### 1.3 Configure Card HTML Templates and CSS
+**Tools → Manage Note Types** and click on your new **Yomitan card type → Cards**
 Copy the following templates into your Anki cards setup:
 
 #### **Front Template:**
