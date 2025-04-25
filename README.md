@@ -95,7 +95,7 @@ hr#answer {
 
 ### 2.1 Install Yomitan
 
-- Install the extension from the [Yomitan Chrome Web Store]([https://chrome.google.com/webstore/detail/yomitan/jipdnfibhldikgcjhfnomkfpcebammhp](https://microsoftedge.microsoft.com/addons/detail/yomitan-popup-dictionary/idelnfbbmikgfiejhgmddlbkfgiifnnn)).
+- Install the extension from the [Yomitan Chrome Web Store](https://microsoftedge.microsoft.com/addons/detail/yomitan-popup-dictionary/idelnfbbmikgfiejhgmddlbkfgiifnnn).
 
 ### 2.2 Import Dictionaries
 
