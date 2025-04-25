@@ -33,7 +33,7 @@ This guide will walk you through setting up a powerful Japanese study workflow u
 **Tools → Manage Note Types** and click on your new **Yomitan card type → Cards**
 Copy the following templates into your Anki cards setup:
 
-#### **Front Template:**
+### **Front Template:**
 ```html
 <div style="margin-top: 60px; text-align: center;">
   <div style='font-family: BIZ UDGothic; font-size: 48px;'>{{Front}}</div>
