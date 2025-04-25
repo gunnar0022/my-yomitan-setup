@@ -132,7 +132,7 @@ hr#answer {
 | Reading             | `{reading}`               |
 | Frequency           | `{frequencies}`           |
 
-> ![Yomitan Anki mapping screenshot 1](yomitan-field-config1.png)  
+![Yomitan Anki mapping screenshot 1](yomitan-field-config1.png)  
 
 ![Yomitan field configuration (part 2)](yomitan-field-config2.png)  
 *Example: Yomitan field mapping.*
