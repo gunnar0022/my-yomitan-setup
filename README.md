@@ -43,7 +43,7 @@ Copy the following templates into your Anki cards setup:
 </div>
 
 ```
-
+### **Back Template:** 
 
 ```html
 <div style="margin-top: 60px; text-align: center;">
@@ -71,6 +71,7 @@ Copy the following templates into your Anki cards setup:
 </div>
 
 ```
+### **CSS Template:** 
 
 ```css
 .card {
@@ -86,6 +87,62 @@ hr#answer {
   border: 1px solid #ccc;
 }
 ```
+
+## Step 2: Set Up Yomitan (Chrome Extension)
+
+### 2.1 Install Yomitan
+
+- Install the extension from the [Yomitan Chrome Web Store](https://chrome.google.com/webstore/detail/yomitan/jipdnfibhldikgcjhfnomkfpcebammhp).
+
+### 2.2 Import Dictionaries
+
+- Click the Yomitan icon in Chrome and go to **Settings → Backup**.
+- Download the [Yomitan Dictionaries Bundle](https://drive.google.com/file/d/1ExmPI7cDwWpsCO6g8YBslAAdF92BwJqx/view?usp=sharing).
+- Import the file using Yomitan’s import feature.
+- **Enable dictionaries** at the top of the page.
+  - *(If you don’t want native Japanese definitions, uncheck the one labeled "Japanese".)*
+
+### 2.3 Configure Anki Integration
+
+- Open Yomitan Settings and navigate to the **Anki** tab.
+- Ensure Anki is open with AnkiConnect running.
+- Use the following settings for field mappings:
+
+| Anki Field          | Yomitan Value             |
+|---------------------|---------------------------|
+| Front               | `{expression}`            |
+| Back                | `{glossary}`              |
+| dictionary          | `{dictionary}`            |
+| Audio               | `{audio}`                 |
+| Add Reverse         | *(Some of this works, not too sure why. Don't mess with it.)* |
+| Sentence            | `{sentence}`              |
+| Sentence no word    | `{pitch-accent-graphs}`   |
+| Reading             | `{reading}`               |
+| Frequency           | `{frequencies}`           |
+
+> ![Yomitan Anki mapping screenshot 1](yomitan-mapping-1.png)  
+> **Example**: Yomitan field mapping (part 1)
+
+> ![Yomitan Anki mapping screenshot 2](yomitan-mapping-2.png)  
+> **Example**: Yomitan field mapping (part 2)
+
+---
+
+## Step 3: Set Up ManabiDojo (Crunchyroll Subtitle Miner)
+
+- Install **ManabiDojo** from the [Chrome Web Store](https://chromewebstore.google.com/detail/manabidojo-learn-japanese/efbhkecfjhcpmepgbpogiiaidkmjhojl).
+- Once installed, subtitles can be clicked directly within Crunchyroll videos to create Anki cards automatically.
+- If Crunchyroll does not have Japanese subtitles for a particular anime, download subtitles from [kitsunekko.net](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F).
+- Upload these manually into the ManabiDojo interface (bottom right of your Crunchyroll video).
+
+---
+
+## Final Tips
+
+- Ensure **Anki is open** when sending cards from Yomitan or ManabiDojo.
+- If you encounter issues, verify AnkiConnect is active and not blocked by antivirus or firewall.
+- Confirm all field names and mappings exactly match those in Anki.
+- For troubleshooting, search your specific issue online or consult Japanese-learning community forums.
 
 
 
