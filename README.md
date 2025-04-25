@@ -132,8 +132,7 @@ hr#answer {
 | Reading             | `{reading}`               |
 | Frequency           | `{frequencies}`           |
 
-> ![Yomitan Anki mapping screenshot 1](yomitan-mapping-1.png)  
-> **Example**: Yomitan field mapping (part 1)
+> ![Yomitan Anki mapping screenshot 1](yomitan-field-config1.png)  
 
 ![Yomitan field configuration (part 2)](yomitan-field-config2.png)  
 *Example: Yomitan field mapping.*
@@ -146,7 +145,7 @@ hr#answer {
 - Once installed, subtitles can be clicked directly within Crunchyroll videos to create Anki cards automatically.
 - If Crunchyroll does not have Japanese subtitles for a particular anime, download subtitles from [kitsunekko.net](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F).
 - Upload these manually into the ManabiDojo interface (bottom right of your Crunchyroll video).
-![Using raw subtitle files](raw-subs-use.png)
+![Using raw subtitle files](yomitan-raw-correct.png)
 *Example: Uploading raw subtitles into ManabiDojo.*
 
 ---
