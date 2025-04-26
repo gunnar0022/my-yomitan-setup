@@ -104,6 +104,10 @@ hr#answer {
 
 - Click the Yomitan icon in Chrome and go to **Settings → Backup**.
 - Download the [Yomitan Dictionaries Bundle](https://drive.google.com/file/d/1ExmPI7cDwWpsCO6g8YBslAAdF92BwJqx/view?usp=sharing).
+![Yomitan dictionary configuration](yomitan-download.png)  
+*Example: The link should take you here, it can't load the json, so just download it and move on.*
+
+  
 - Import the file using Yomitan’s import feature.
 - ![Yomitan dictionary import](yomitan-import.png)  
 *Example: Importing dictionaries into Yomitan.*
