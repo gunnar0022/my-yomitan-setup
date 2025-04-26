@@ -121,8 +121,8 @@ hr#answer {
 - There's a demo on the right side to display how your Yomitan pop-up dictionary will 
 look on the right side of the screen. You can mess around with stuff until it's how you like. 
 ![Yomitan dictionary configuration](yomitan-popup.png)  
-*Example: This is what the example popup should look like now. Notice the **audio**, **frequency**, **pitch accent**, 
-and **Add flashcard** buttons, as well as the listed **definitions**.*
+*Example: This is what the example popup should look like now. Notice the **Add Flashcard** and **Audio** buttons, as well as the listed **Frequency**, 
+  **Pitch Accent Chart**, and **Definition**.*
 
 
 
