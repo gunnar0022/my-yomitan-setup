@@ -7,7 +7,7 @@ _For Japanese Study – Step-by-Step_
 
 This guide will walk you through setting up a powerful Japanese study workflow using **Anki**, **AnkiConnect**, **Yomitan**, and subtitle mining tools (**ManabiDojo**). With this setup, you can easily create custom flashcards from your browser or anime subtitles.
 
-*Some steps might seem technical, and they are. That's why I made this guide.*
+*Some steps get a little technical, so pay close attention and hang in there.*
 
 ---
 
