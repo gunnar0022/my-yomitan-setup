@@ -33,6 +33,8 @@ This guide will walk you through setting up a powerful Japanese study workflow u
 **Tools → Manage Note Types** and click on your new **Yomitan card type → Cards**
 
 You'll have to navigate between the Front, Back, and Styling tabs.
+> ![Anki fields setup example](yomitan-card.png)  
+> **Example**: Your screen should look like this.
 Copy the following templates into your Anki cards setup:
 
 ### **Front Template:**
