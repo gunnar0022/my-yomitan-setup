@@ -109,8 +109,9 @@ hr#answer {
 
   
 - Import the file using Yomitan’s import feature.
+- THIS IS IN THE **BACKUP**, **NOt THE DICTIONARY SECTION**
 ![Yomitan dictionary import](yomitan-import.png)  
-*Example: Importing dictionaries into Yomitan.*
+*Example: Importing dictionaries into Yomitan using the backup.*
 - Select the file you just downloaded. It should take a moment to download all the dictionaries.
   
 - Now **Enable Dictionaries** at the top of the page.
