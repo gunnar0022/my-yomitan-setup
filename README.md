@@ -23,7 +23,8 @@ This guide will walk you through setting up a powerful Japanese study workflow u
 - Go to **Tools → Manage Note Types**.
 - Click **Add → Add: Basic** and name it **Yomitan**.
 - Select your note type and click **Fields**.
-- Add these fields exactly as listed below:
+- Add these fields _exactly_ as listed below:
+
 
 
 > ![Anki fields setup example](yomitan-fields.png)  
