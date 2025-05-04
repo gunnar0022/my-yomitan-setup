@@ -115,7 +115,7 @@ hr#answer {
 - If not propmted, hit Sync, then **Upload to Anki Web**
 
 ### 1.5 Create Empty Deck 
-- You'll want to create a new deck that new flashcards can get sent too.
+- You'll want to create a new deck that new flashcards can get sent to.
 - From the main screen of Anki (click **decks** if you're lost), there's a **Create Deck** on the bottom of the page.
 - Name your new deck whatever you feel like, just be sure to remember it for later. I named mine "Extra Vocab."
   
@@ -133,7 +133,7 @@ hr#answer {
 
 - Download the [Yomitan Dictionaries Bundle](https://drive.google.com/file/d/1ExmPI7cDwWpsCO6g8YBslAAdF92BwJqx/view?usp=sharing).
 ![Yomitan dictionary configuration](yomitan-download.png)
-*Example: The link should take you here, it can't load or the json file, so just download it and move on.*
+*Example: The link should take you here, it can't load or open the json file, so just download it and move on.*
 
 ### Navigate to the Yomitan Settings Page
 - Click the Yomitan icon in Chrome (it might be hiding in the extensions puzzle piece in the top right of the browser) and go to **Settings (represented as a cog)**
@@ -162,9 +162,9 @@ hr#answer {
 - Ensure **Anki is open** and AnkiConnect (seen from yomitan) is connected.
 - Note: You may need to switch **Enable Anki Integration** from Yomitan's Anki tab to **on**.
 - Click into the **Configure Anki card format**
-- Configure the Deck to the deck you want the cards to get sent to.
+- Configure the Deck to the one you made earlier, this is where the cards will get sent.
 - Configure the Model Type to the Yomitan card type you created earlier.
-- Now fill in the field values in the fowwling way
+- Now fill in the field values in the following way
 
 | Anki Field          | Yomitan Value             |
 |---------------------|---------------------------|
@@ -185,11 +185,12 @@ hr#answer {
 
 ---
 ![Yomitan dictionary configuration](yomitan-popup.png)  
-*Example: This is what the example popup should look like now. Notice the **Add Flashcard** and **Audio** buttons, as well as the listed **Frequency**, 
+*Example: This is what the example popup on the right should look like now. Notice the **Add Flashcard** and **Audio** buttons, as well as the listed **Frequency**, 
   **Pitch Accent Chart**, and **Definition**.*
   
 - From this popup (activated by holding shift over any Japanese in your chrome browser) you can add the flashcards to you anki with a single button press of the green "+" seen in the top right of the popup.
-
+- You'll also be able to get detailed kanji information by clicking on a kanji that appears in the words
+- 
 ### 2.4 _Optional_ Personalization
 - Feel free to look around some of the other options in the Yomitan settings before you're done with it. There's some useful stuff like the **Position and Size** tab I would reccomend. Kanji can get small, and increasing the size in the settings is the only way to make it bigger. I blew mine up to 175% on my laptop, and 150% on my desktop so I'd never have to strain again. 
 
