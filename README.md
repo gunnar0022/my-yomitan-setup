@@ -5,7 +5,20 @@ _For Japanese Study – Step-by-Step_
 
 ## Introduction
 
-This guide will walk you through setting up a powerful Japanese study workflow using **Anki**, **AnkiConnect**, **Yomitan**, and subtitle mining tools (**ManabiDojo**). With this setup, you can easily create custom flashcards from your browser or anime subtitles.
+This guide will walk you through setting up a powerful Japanese study workflow using **Anki**, **AnkiConnect**, **Yomitan**, and subtitle mining tools like **ManabiDojo**.
+
+With this setup, you'll gain access to a robust inline dictionary that can:
+
+- List word definitions  
+- Show pitch accent information  
+- Play native speaker audio  
+- Display word frequency  
+- Break down kanji meanings and stroke order  
+
+You'll also be able to generate detailed flashcards with a single button press. These cards will include all the above information and be sent directly to your Anki deck.
+
+Additionally, you'll be able to watch anime on Crunchyroll with native Japanese subtitles, making it easy to start your word mining journey.
+
 
 *Some steps get a little technical, so pay close attention and hang in there. Skimming past steps might result in confusion later on*
 
