@@ -99,8 +99,9 @@ hr#answer {
 You will likely need to sync your changes after this. If prompted, be sure to hit **Upload to Anki Web**
 
 ### 1.5 Create Empty Deck 
-- You'll want to create a new deck that new flashcards can get set too.
-- From the main screen of Anki (click **decks** if you're lost), there's a **Create Deck** on the bottom of the page. 
+- You'll want to create a new deck that new flashcards can get sent too.
+- From the main screen of Anki (click **decks** if you're lost), there's a **Create Deck** on the bottom of the page.
+- Name your new deck whatever you feel like, just be sure to remember it for later. I named mine "Extra Vocab."
   
 ## Step 2: Set Up Yomitan (Chrome Extension)
 
