@@ -109,7 +109,10 @@ hr#answer {
 ```
 **Be sure to save your changes!**
 ### 1.4 Upload to web
-You will likely need to sync your changes after this. If prompted, be sure to hit **Upload to Anki Web**
+- Close the card editing pages, but leave the main Anki page open.
+- You will need to sync your changes after this.
+- If prompted, be sure to hit **Upload to Anki Web**
+- If not propmted, hit Sync, then **Upload to Anki Web**
 
 ### 1.5 Create Empty Deck 
 - You'll want to create a new deck that new flashcards can get sent too.
