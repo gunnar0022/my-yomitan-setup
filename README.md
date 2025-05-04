@@ -95,7 +95,13 @@ hr#answer {
 }
 ```
 **Be sure to save your changes!**
+### 1.4 Upload to web
+You will likely need to sync your changes after this. If prompted, be sure to hit **Upload to Anki Web**
 
+### 1.5 Create Empty Deck 
+- You'll want to create a new deck that new flashcards can get set too.
+- From the main screen of Anki (click **decks** if you're lost), there's a **Create Deck** on the bottom of the page. 
+  
 ## Step 2: Set Up Yomitan (Chrome Extension)
 
 ### 2.1 Install Yomitan
@@ -106,32 +112,31 @@ hr#answer {
 
 - Download the [Yomitan Dictionaries Bundle](https://drive.google.com/file/d/1ExmPI7cDwWpsCO6g8YBslAAdF92BwJqx/view?usp=sharing).
 ![Yomitan dictionary configuration](yomitan-download.png)
-*Example: The link should take you here, it can't load the json, so just download it and move on.*
+*Example: The link should take you here, it can't load or the json file, so just download it and move on.*
 
-- Click the Yomitan icon in Chrome and go to **Settings → Backup**.
+- Click the Yomitan icon in Chrome (it might be hiding in the extensions puzzle piece in the top right of the browser) and go to **Settings (from the extension)→ Backup (on the leftside of the settings page)**. 
 - Import the file using Yomitan’s import feature.
 - THIS IS IN THE **BACKUP**, **NOt THE DICTIONARY SECTION**
 ![Yomitan dictionary import](yomitan-import.png)  
 *Example: Importing dictionaries into Yomitan using the backup.*
-- Select the file you just downloaded. It should take a moment to download all the dictionaries.
+- Select the file you just downloaded. It will take a moment to download all the dictionaries. It's over 800,000 lines of dictionary data. You can watch the progress under where you just imported it, begin the next steps once it's finished. 
   
-- Now **Enable Dictionaries** at the top of the page.
+- Now **Enable Dictionaries** at the top of the page. Click the **Configure Installed and Enabled Dictionaries**
+- Your dictionaries might not be in the same order 
 ![Yomitan dictionary configuration](yomitan-dict-config.png)  
 *Example: Enabling/disabling dictionaries in Yomitan.*
 
 - *(If you don’t want native Japanese definitions, uncheck the one in Japanese".)*
 - There's a demo on the right side to display how your Yomitan pop-up dictionary will look on the right side of the screen. You can mess around with stuff until it's how you like.
 
-![Yomitan dictionary configuration](yomitan-popup.png)  
-*Example: This is what the example popup should look like now. Notice the **Add Flashcard** and **Audio** buttons, as well as the listed **Frequency**, 
-  **Pitch Accent Chart**, and **Definition**.*
-
 
 
 ### 2.3 Configure Anki Integration
 
-- Navigate to the **Anki** tab.
-- Ensure Anki is open with AnkiConnect running.
+- Navigate to the **Anki** tab (Still in Yomitan).
+- Ensure **Anki is open** and AnkiConnect (seen from yomitan) is connected.
+- Note: You may need to switch **Enable Anki Integration** from Yomitan's Anki tab to **on**.
+- Click into the **Configure Anki card format**
 - Configure the Deck to the deck you want the cards to get sent to.
 - Configure the Model Type to the Yomitan card type you created earlier.
 - Now fill in the field values in the fowwling way
@@ -154,24 +159,43 @@ hr#answer {
 *Example: Yomitan field mapping.*
 
 ---
+![Yomitan dictionary configuration](yomitan-popup.png)  
+*Example: This is what the example popup should look like now. Notice the **Add Flashcard** and **Audio** buttons, as well as the listed **Frequency**, 
+  **Pitch Accent Chart**, and **Definition**.*
+  
+- From this popup (activated by holding shift over any Japanese in your chrome browser) you can add the flashcards to you anki with a single button press of the green "+" seen in the top right of the popup.
 
+### 2.4 _Optional_ Personalization
+- Feel free to look around some of the other options in the Yomitan settings before you're done with it. There's some useful stuff like the **Position and Size** tab I would reccomend. Kanji can get small, and increasing the size in the settings is the only way to make it bigger. I blew mine up to 175% on my laptop, and 150% on my desktop so I'd never have to strain again. 
+
+---
 ## Step 3: Set Up ManabiDojo (Crunchyroll Subtitle Miner)
 
+### 3.1 Install ManabiDojo 
 - Install **ManabiDojo** from the [Chrome Web Store](https://chromewebstore.google.com/detail/manabidojo-learn-japanese/efbhkecfjhcpmepgbpogiiaidkmjhojl).
 - Once installed, subtitles can be clicked directly within Crunchyroll videos to create Anki cards automatically.
-- If Crunchyroll does not have Japanese subtitles for a particular anime, download subtitles from [kitsunekko.net](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F).
+- For many popular anime, you shouldn't have to do _anything_, and you're **ready to go**!
+
+### 3.2 Potential Manual Subtitle Insertion
+- However, if Crunchyroll does not have Japanese subtitles for a particular anime, (you open the anime you want to watch, and no subtitles pop up) you can download raw subtitle files from [kitsunekko.net](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F) and upload them into the extension.
 - Upload these manually into the ManabiDojo interface (bottom right of your Crunchyroll video).
 ![Using raw subtitle files](yomitan-raw-correct.png)
 *Example: Uploading raw subtitles into ManabiDojo.*
 
+### 3.3 Optional Settings configuration
+- By default, Manabi Dojo has english subtitles on. This defeats the purpose of what we're going for, **Click the Cog in the Top Right**
+- Under **Nativer subs mode**: Select either **Pause** (English is hidden until you pause) or **Hidden** (No English ever).
+- Also consider increasing the size of the Japanese subs with the **Japanese Subs Size** option to make complex kanji more readable.
+- There are other settings you can mess around with, feel free to do whatever. 
 ---
 
 ## Final Tips
 
-- Ensure **Anki is open** when sending cards from Yomitan or ManabiDojo.
+- Yomitan _only activates_ while holding down **Shift**. This is so it's not randomly getting in your way during normal computer activity. 
+- Ensure **Anki is open** when sending cards from Yomitan or ManabiDojo. If anki is closed, it cannot connect to it. 
 - If you encounter issues, verify AnkiConnect is active and not blocked by antivirus or firewall.
 - Confirm all field names and mappings exactly match those in Anki.
-- For troubleshooting, search your specific issue online or consult Japanese-learning community forums.
+- For troubleshooting, search your specific issue online or consult Japanese-learning community forums. Updates to any 3 pieces of software (Anki, Yomitan, Anki connect) may cause issues, so I personally ignore new updates. If suddenly it stops working, then I'll go in and update everything. 
 
 
 
