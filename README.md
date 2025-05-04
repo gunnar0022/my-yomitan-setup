@@ -108,6 +108,10 @@ You will likely need to sync your changes after this. If prompted, be sure to hi
 ### 2.1 Install Yomitan
 
 - Install the extension from the [Yomitan Chrome Web Store](https://microsoftedge.microsoft.com/addons/detail/yomitan-popup-dictionary/idelnfbbmikgfiejhgmddlbkfgiifnnn).
+- You'll get sent to the Yomitan Welcome Page.
+- Here, you'll want to allow the permissions Yomitan wants
+- Find the switch near the bottom saying something like "Open Yomitan Welcome Page on Startup" -> Unselect that.
+- You can then close the welcome page
 
 ### 2.2 Import Dictionaries
 
@@ -115,12 +119,16 @@ You will likely need to sync your changes after this. If prompted, be sure to hi
 ![Yomitan dictionary configuration](yomitan-download.png)
 *Example: The link should take you here, it can't load or the json file, so just download it and move on.*
 
-- Click the Yomitan icon in Chrome (it might be hiding in the extensions puzzle piece in the top right of the browser) and go to **Settings (from the extension)→ Backup (on the leftside of the settings page)**. 
+### Navigate to the Yomitan Settings Page
+- Click the Yomitan icon in Chrome (it might be hiding in the extensions puzzle piece in the top right of the browser) and go to **Settings (represented as a cog)**
+- From the settings page, navigate to **Backup** (on the leftside of the settings page). 
 - Import the file using Yomitan’s import feature.
 - THIS IS IN THE **BACKUP**, **NOt THE DICTIONARY SECTION**
 ![Yomitan dictionary import](yomitan-import.png)  
 *Example: Importing dictionaries into Yomitan using the backup.*
-- Select the file you just downloaded. It will take a moment to download all the dictionaries. It's over 800,000 lines of dictionary data. You can watch the progress under where you just imported it, begin the next steps once it's finished. 
+- It should be the most recent file in your downloads folder, select it and hit open.
+- It will take a moment to download all the dictionaries. It's over 800,000 lines of dictionary data.
+- You can watch the progress under where you just imported it, begin the next steps once it's finished. 
   
 - Now **Enable Dictionaries** at the top of the page. Click the **Configure Installed and Enabled Dictionaries**
 - Your dictionaries might not be in the same order 
