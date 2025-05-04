@@ -37,7 +37,7 @@ You'll have to navigate between the Front, Back, and Styling tabs.
 > ![Anki fields setup example](yomitan-card.png)  
 > **Example**: Your screen should look like this.
 > 
-Copy the following templates into the respective Anki cards setup:
+Copy the following templates into the respective Anki cards setup, making sure to delete whatever prexisting code is there:
 
 ### **Front Template:**
 ```html
@@ -78,7 +78,7 @@ Copy the following templates into the respective Anki cards setup:
 </div>
 
 ```
-### **CSS Template:** 
+### **CSS Template: (Styling)** 
 
 ```css
 .card {
@@ -94,6 +94,7 @@ hr#answer {
   border: 1px solid #ccc;
 }
 ```
+**Be sure to save your changes!**
 
 ## Step 2: Set Up Yomitan (Chrome Extension)
 
