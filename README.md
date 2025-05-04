@@ -95,7 +95,7 @@ hr#answer {
 }
 ```
 **Be sure to save your changes!**
-
+#################################
 ## Step 2: Set Up Yomitan (Chrome Extension)
 
 ### 2.1 Install Yomitan
