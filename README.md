@@ -37,7 +37,7 @@ Additionally, you'll be able to watch anime on Crunchyroll with native Japanese 
 - Click **Add → Add: Basic** and name it **Yomitan**.
 - Select your note type and click **Fields**.
 - Add these fields _exactly_ as listed below:
-
+- Note: After you add a field, you might get a warning telling you you'll have to restart Anki for the changes to save. Just hit okay and keep going.
 
 
 > ![Anki fields setup example](yomitan-fields.png)  
