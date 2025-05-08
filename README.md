@@ -113,6 +113,7 @@ hr#answer {
 - You will need to sync your changes after this.
 - If prompted, be sure to hit **Upload to Anki Web**
 - If not propmted, hit Sync, then **Upload to Anki Web**
+- **IMPORTANT NOTICE:** If you are using other devices, be sure you **DOWNLOAD** from the web on those devices. If you upload from your other devices, it will overwrite your work here.
 
 ### 1.5 Create Empty Deck 
 - You'll want to create a new deck that new flashcards can get sent to.
