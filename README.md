@@ -28,6 +28,11 @@ Additionally, you'll be able to watch anime on Crunchyroll with native Japanese 
 
 ### 1.1 Install AnkiConnect
 - Open Anki.
+- Make sure you're logged into any account you have with anki. You can check by hitting the sync button.
+- If it syncs, you're logged in. Otherwise, you'll be prompted to log in.
+- If you don't have an account or forgot your password, go here: https://ankiweb.net/account/login
+
+Set up Anki connect
 - Go to **Tools → Add-ons → Get Add-ons…**
 - Paste this code: **2055492159** and click **OK**.
 - Restart Anki.
